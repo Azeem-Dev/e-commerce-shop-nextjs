@@ -124,7 +124,7 @@ const ReviewGrid = () => {
             reviews={[...column2, ...column3[1]]}
             className="hidden md:block"
             reviewClassName={(reviewIndex) =>
-              reviewIndex >= column1.length ? "lg:hidden" : ""
+              reviewIndex >= column2.length ? "lg:hidden" : ""
             }
             msPerPixel={15}
           />
