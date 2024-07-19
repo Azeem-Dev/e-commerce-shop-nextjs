@@ -142,6 +142,7 @@ export default function Home() {
               className="w-24 order-0 lg:order-2"
               width={200}
               height={200}
+              alt="snake logo"
             />
           </div>
           {/* REVIEWS */}
